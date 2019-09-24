@@ -13,9 +13,9 @@ struct Pessoa {
 
 void criaData(struct Data *D)
 {
-    D->mes = 1 + (rand() % 12);
-    D->ano = 1950 + (rand() % 49);
-    D->dia = 1 + (rand() % 30);
+    D->mes = 1 + (rand() % 12);  
+    D->ano = 1950 + (rand() % 49);   
+    D->dia = 1 + (rand() % 30);   
 }
 
 void ImprimeTelaDeOpcoes() {
@@ -48,7 +48,7 @@ void ImprimeTodasAsPessoas(struct Pessoa povo[10], int qtdPessoas) {
 
 int EscolheOpcao() {
     int opcao = 0;
-    printf("Digite uma opção. \n");
+    printf("Digite uma opï¿½ï¿½o. \n");
     scanf("%d", &opcao);
     return opcao;
 }
